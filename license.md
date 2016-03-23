@@ -5,7 +5,7 @@ These license terms are an agreement between Microsoft Corporation (or based on 
 
 - updates,
 - supplements,
-- Internet-based services and,
+- Internet-based services, and
 - support services
 
 for this software, unless other terms accompany those items. If so, those terms apply.
