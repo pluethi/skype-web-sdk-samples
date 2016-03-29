@@ -4,7 +4,7 @@ Microsoft Skype Web SDK exposes multiple APIs from Microsoft Skype for Business 
 
 ---
 
-:exclamation:**NOTE**: You are free to use this code and library according to the terms of its included [LICENSE](/LICENSE) and to open issues in this repo for unofficial support.
+:exclamation:**NOTE**: You are free to use this code and library according to the terms of its included [LICENSE](/LICENSE.md) and to open issues in this repo for unofficial support.
 
 Information about official Microsoft support is available [here][support-placeholder].
 
