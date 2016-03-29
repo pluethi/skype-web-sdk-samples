@@ -10,6 +10,9 @@ registeredListeners = [];
  */
 $(function () {
     'use strict';
+        if (window['noMeResource']) {
+            $('.container .content .noMe').show();
+        }
     var client = window.skypeWebApp;
     client.conversationsManager.conversations.get().then(function (conversationsArray) {
         if (conversationsArray && conversationsArray.length > 0) {

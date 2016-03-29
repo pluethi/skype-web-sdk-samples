@@ -10,6 +10,9 @@ registeredListeners = [];
  */
 $(function () {
     'use strict';
+    if (window['noMeResource']) {
+        $('.container .content .noMe').show();
+    }
     var client = window.skypeWebApp;
     var soundHandler;
     var sound = new Audio('sounds/outgoing.mp3');

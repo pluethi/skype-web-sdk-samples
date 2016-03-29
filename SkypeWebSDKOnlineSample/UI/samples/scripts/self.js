@@ -7,6 +7,13 @@ registeredListeners.forEach(function (listener) {
 registeredListeners = [];
 $(function () {
     'use strict';
+        if (window['noMeResource']) {
+            // This is most likely an online deployment where scopes are not configured to return me resource.
+            // Disable self link in this sample.
+            $('.content').html('<div class="noMe">Ability to read and update presence, photo, location and note of the signed in user is not available in the current release.</div>');
+            $('.container .content .noMe').show();
+            return;
+        }
     var client = window.skypeWebApp;
     // when it's signed in, display its name, title and email
     $('#self-name').text(client.personsAndGroupsManager.mePerson.displayName());

@@ -11,6 +11,9 @@ registeredListeners = [];
  */
 $(function () {
     'use strict';
+        if (window['noMeResource']) {
+            $('.container .content .noMe').show();
+        }
     var client = window.skypeWebApp;
     var chatService;
     var xHistory = $('#message-history');

@@ -94,6 +94,13 @@ $(function () {
             // when the sign in operation succeeds display the user name
             $(".modal").hide();
             console.log('Signed in as ' + client.personsAndGroupsManager.mePerson.displayName());
+                if (!window.skypeWebApp.personsAndGroupsManager.mePerson.id()
+                    && !window.skypeWebApp.personsAndGroupsManager.mePerson.avatarUrl()
+                    && !window.skypeWebApp.personsAndGroupsManager.mePerson.email()
+                    && !window.skypeWebApp.personsAndGroupsManager.mePerson.displayName()
+                    && !window.skypeWebApp.personsAndGroupsManager.mePerson.title()) {
+                    window['noMeResource'] = true;
+                }
             $(".menu #sign-in").click();
             $("#anonymous-join").addClass("disable");
         }, function (error) {

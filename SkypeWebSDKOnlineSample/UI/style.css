@@ -195,8 +195,12 @@ body {
   cursor: pointer;
 }
 
-.self, .search, .contact, .groups{
+.self, .search, .contact, .noMe, .groups{
   margin-top: 20px;
+}
+
+.noMe {
+    display: none;
 }
 
 #sel-presence {
