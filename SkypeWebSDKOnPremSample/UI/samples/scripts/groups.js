@@ -20,11 +20,10 @@ $(function () {
         client.personsAndGroupsManager.all.groups.subscribe();
         client.personsAndGroupsManager.all.groups.added(function (group) {
             var tagGroup;
-            //TODO: the following change is not tested yet
-            if (group.name() || group.relationshipLevel())
-                tagGroup = createGroupView(group.persons, group.relationshipLevel());
-            else
+            if (group.name())
                 tagGroup = createGroupView(group.persons, group.name());
+            else
+                tagGroup = createGroupView(group.persons, group.relationshipLevel());
             $('#results').append(tagGroup);
         });
         /**
