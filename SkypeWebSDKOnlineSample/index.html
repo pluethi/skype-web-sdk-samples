@@ -8,7 +8,7 @@
         if (!location.hash) {
             location.assign('https://login.windows.net/common/oauth2/authorize?response_type=token' +
                 '&client_id=d1763d46-5e84-413f-97f0-faa9c49a8e41' +
-                '&redirect_uri=http://localhost/' +
+                '&redirect_uri=' + location.href +
                 '&resource=https://webdir.online.lync.com');
         }
 

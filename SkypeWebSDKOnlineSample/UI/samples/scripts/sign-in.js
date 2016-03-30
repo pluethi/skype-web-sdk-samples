@@ -83,7 +83,8 @@ $(function () {
          "client_id": "d1763d46-5e84-413f-97f0-faa9c49a8e40",
          "origins": ["https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root"],
          "cors": true,
-         "version": 'SkypeOnlinePreviewApp/1.0.0'
+         "version": 'SkypeOnlinePreviewApp/1.0.0',
+         "redirect_uri": '/token.html'
      };
         // start signing in
         $(".modal").show();
