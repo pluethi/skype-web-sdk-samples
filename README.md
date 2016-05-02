@@ -14,8 +14,8 @@ Information about official Microsoft support is available [here][support-placeho
 
 There are two examples that demonstrate how to use the Skype for Business SDK to connect to and use information.
 
-* [SkypeWebSDKOnPremSample](https://github.com/chbighammsft/skype-web-sdk-samples/tree/master/SkypeWebSDKOnPremSample) -- Demonstrates using an on-premise Skype for Business server.
-* [SkypeWebSDKOnlineSample](https://github.com/chbighammsft/skype-web-sdk-samples/tree/master/SkypeWebSDKOnlineSample) -- Demonstrates using a Skype for Business server hosted on Office 365.
+* [SkypeWebSDKOnPremSample](https://github.com/OfficeDev/skype-web-sdk-samples/tree/master/SkypeWebSDKOnPremSample) -- Demonstrates using an on-premise Skype for Business server.
+* [SkypeWebSDKOnlineSample](https://github.com/OfficeDev/skype-web-sdk-samples/tree/master/SkypeWebSDKOnlineSample) -- Demonstrates using a Skype for Business server hosted on Office 365.
 
 
 ### Setup
