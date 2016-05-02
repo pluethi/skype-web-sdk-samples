@@ -1,6 +1,6 @@
 # Microsoft Skype for Business Web SDK
 
-Microsoft Skype Web SDK exposes multiple APIs from Microsoft Skype for Business through a simple to use JavaScript library. Using the Web SDK, you can enable your web app for Skype for Business conversations and contact lists.
+The Microsoft Skype Web SDK provides multiple APIs from Microsoft Skype for Business through a JavaScript library. Using the Web SDK, your web app can use Skype for Business conversations and contact lists.
 
 ---
 
@@ -12,17 +12,19 @@ Information about official Microsoft support is available [here][support-placeho
 
 ---
 
+There are two examples that demonstrate how to use the Skype for Business SDK to connect to and use information.
 
+* [SkypeWebSDKOnPremSample](https://github.com/chbighammsft/skype-web-sdk-samples/tree/master/SkypeWebSDKOnPremSample) -- Demonstrates using an on-premise Skype for Business server.
+* [SkypeWebSDKOnlineSample](https://github.com/chbighammsft/skype-web-sdk-samples/tree/master/SkypeWebSDKOnlineSample) -- Demonstrates using a Skype for Business server hosted on Office 365.
 
 
 ### Setup
 
+For instructions for setting up and running the Skype for Business SDK samples, see these topics:
 
-
-### Authenticate and construct client
-
-
-## FAQ
+* [Getting started with Skype Web SDK development](https://msdn.microsoft.com/en-us/library/office/mt150216(v=office.16).aspx)
+* [Developing Web SDK applications for Skype for Business Online](https://msdn.microsoft.com/en-us/library/office/mt622687(v=office.16).aspx)
+* [Developing Web SDK applications for Skype for Business Server](https://msdn.microsoft.com/en-us/library/office/mt622781(v=office.16).aspx)
 
 
 ## Contributing
