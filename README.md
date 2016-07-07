@@ -4,7 +4,7 @@ The Microsoft Skype Web SDK provides multiple APIs from Microsoft Skype for Busi
 
 ---
 
-:exclamation:**NOTE**: You are free to use this code and library according to the terms of its included [LICENSE](https://github.com/OfficeDev/skype-web-sdk-samples/blob/master/license.md) and to open issues in this repo for unofficial support.
+>**NOTE**: You are free to use this code and library according to the terms of its included [LICENSE](https://github.com/OfficeDev/skype-web-sdk-samples/blob/master/license.md) and to open issues in this repo for unofficial support.
 
 Information about official Microsoft support is available [here][support-placeholder].
 
