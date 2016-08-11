@@ -13,3 +13,4 @@
 /// <reference path="samples/scripts/person-group-manager.ts" />
 /// <reference path="samples/scripts/device-manager.ts" />
 /// <reference path="samples/scripts/audio-video-manager.ts" />
+/// <reference path="samples/scripts/conversation-control.ts" />

@@ -9,6 +9,7 @@ $(function () {
     'use strict';
     window['sign-out_load'] = function () {
         var client = window.skypeWebApp;
+        $('.wrappingdiv .signed-out').hide();
         // when the user clicks on the "Sign Out" button
         $('#btn-sign-out').click(function () {
             // start signing out
@@ -16,7 +17,8 @@ $(function () {
                 .then(function () {
                 // and report the success
                 console.log('Signed out');
-                window.location.reload();
+                $('.wrappingdiv .signed-out').show();
+                $('.wrappingdiv .sign-out').hide();
             }, function (error) {
                 // or a failure
                 console.log(error || 'Cannot sign out');
