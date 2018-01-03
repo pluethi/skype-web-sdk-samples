@@ -1,0 +1,2 @@
+C:\Users\patrick.luethi\Source\Repos\skype-web-sdk-samples\obj\x86\Debug\SkypeWebSDKSamples.csprojResolveAssemblyReference.cache
+C:\Users\patrick.luethi\Source\Repos\skype-web-sdk-samples\obj\x86\Debug\SkypeWebSDKSamples.csproj.CoreCompileInputs.cache

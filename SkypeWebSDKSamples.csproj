@@ -1,0 +1,195 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{915A61CB-9529-43ED-8C59-E3B2727853C2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SkypeWebSDKSamples</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-27b754dbca32405918125144aa8be86171569bcb.idx" />
+    <None Include=".git\objects\pack\pack-27b754dbca32405918125144aa8be86171569bcb.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include="license.md" />
+    <None Include="README.md" />
+    <None Include="SkypeWebSDK-StyleGuidelines.pdf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\office365icons.eot" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\office365icons.ttf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\office365icons.woff" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-regular.ttf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-regular.woff" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-semibold.ttf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-semibold.woff" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-semilight.ttf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\segoeui-semilight.woff" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\SkypeIcon.eot" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\SkypeIcon.ttf" />
+    <None Include="SkypeWebSDKOnlineSample\UI\fonts\SkypeIcon.woff" />
+    <None Include="SkypeWebSDKOnlineSample\UI\SkypeWebSDK-StyleGuidelines.pdf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\office365icons.eot" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\office365icons.ttf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\office365icons.woff" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-regular.ttf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-regular.woff" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-semibold.ttf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-semibold.woff" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-semilight.ttf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\segoeui-semilight.woff" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\SkypeIcon.eot" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\SkypeIcon.ttf" />
+    <None Include="SkypeWebSDKOnPremSample\UI\fonts\SkypeIcon.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SkypeWebSDKOnlineSample\config.js" />
+    <Content Include="SkypeWebSDKOnlineSample\d1763d46-5e84-413f-97f0-faa9c49a8e41\oauth2\token\index.html" />
+    <Content Include="SkypeWebSDKOnlineSample\hostingstart.html" />
+    <Content Include="SkypeWebSDKOnlineSample\index.html" />
+    <Content Include="SkypeWebSDKOnlineSample\token.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\fonts\SkypeIcon.svg" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\default.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\loading.gif" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\loading.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\presence\available.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\presence\away.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\presence\busy.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\presence\do-not-disturb.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\images\presence\unknown.png" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\index.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\index.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\anonymous-join.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\audio-video-manager.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\chat-service.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\conference.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\contact.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\conversation-control.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\device-manager.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\groups.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\person-group-manager.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\search.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\self.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\sign-in.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\html\sign-out.html" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\anonymous-join.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\audio-video-manager.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\chat-service.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\conference.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\contact.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\conversation-control.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\device-manager.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\groups.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\person-group-manager.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\search.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\self.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\sign-in.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\samples\scripts\sign-out.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\scripts\index.js" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\sounds\endcall.mp3" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\sounds\outgoing.mp3" />
+    <Content Include="SkypeWebSDKOnlineSample\UI\style.css" />
+    <Content Include="SkypeWebSDKOnPremSample\config.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\fonts\SkypeIcon.svg" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\default.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\loading.gif" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\loading.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\presence\available.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\presence\away.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\presence\busy.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\presence\do-not-disturb.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\images\presence\unknown.png" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\index.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\index.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\anonymous-join.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\audio-video-manager.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\chat-service.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\conference.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\contact.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\conversation-control.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\device-manager.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\groups.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\person-group-manager.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\search.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\self.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\sign-in.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\html\sign-out.html" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\anonymous-join.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\audio-video-manager.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\chat-service.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\conference.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\contact.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\conversation-control.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\device-manager.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\groups.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\person-group-manager.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\search.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\self.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\sign-in.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\samples\scripts\sign-out.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\scripts\index.js" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\sounds\endcall.mp3" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\sounds\outgoing.mp3" />
+    <Content Include="SkypeWebSDKOnPremSample\UI\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
